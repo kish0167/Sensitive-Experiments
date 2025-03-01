@@ -12,8 +12,8 @@ namespace SensitiveExperiments
 
 		private static void Postfix(ref ScienceSubject __result)
 		{
-			__result.scientificValue = 0.1f;
-			LocalUtils.Print(__result);
+			//__result.scientificValue = 0.1f;
+			//LocalUtils.Print(__result);
 		}
 		
 		#endregion

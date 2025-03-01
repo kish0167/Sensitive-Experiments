@@ -21,8 +21,8 @@ namespace SensitiveExperiments
 				ProtoVessel source,
 				bool reverseEngineered)
 			{
-				Debug.LogError($"{nameof(ResearchAndDevelopment.SubmitScienceData)}:\n");
-				LocalUtils.Print(subject);
+				//Debug.LogError($"{nameof(ResearchAndDevelopment.SubmitScienceData)}:\n");
+				//LocalUtils.Print(subject);
 			}
 
 			#endregion

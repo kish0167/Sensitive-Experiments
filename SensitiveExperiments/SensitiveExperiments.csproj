@@ -73,6 +73,8 @@
     <ItemGroup>
         <Compile Include="GetExperimentSubjectPatch.cs" />
         <Compile Include="GetReferenceDataValuePatch.cs" />
+        <Compile Include="GetScienceValuePatch.cs" />
+        <Compile Include="GetSubjectValuePatch.cs" />
         <Compile Include="LocalUtils.cs" />
         <Compile Include="SensitiveExperimentsAddon.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
