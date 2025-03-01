@@ -12,7 +12,7 @@ namespace SensitiveExperiments
 
 		private static void Postfix(ref ScienceSubject __result)
 		{
-			__result.scientificValue = 0.5f;
+			__result.scientificValue = 0.1f;
 			LocalUtils.Print(__result);
 		}
 		
