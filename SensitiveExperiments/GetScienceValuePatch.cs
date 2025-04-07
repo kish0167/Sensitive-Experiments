@@ -13,6 +13,7 @@ namespace SensitiveExperiments
 			ScienceSubject subject,
 			float xmitScalar = 1f)
 		{
+			return;
 			double referenceDataValue = (double)ResearchAndDevelopment.GetReferenceDataValue(dataAmount, subject);
 			float num = Mathf.Min((float)referenceDataValue * subject.scientificValue * xmitScalar,
 				subject.scienceCap * scienceValueRatio);

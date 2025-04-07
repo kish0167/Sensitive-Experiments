@@ -76,9 +76,9 @@
         <Compile Include="GetScienceValuePatch.cs" />
         <Compile Include="GetSubjectValuePatch.cs" />
         <Compile Include="LocalUtils.cs" />
+        <Compile Include="ScienceRescalingLogic.cs" />
         <Compile Include="SensitiveExperimentsAddon.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
-        <Compile Include="SubmitScienceDataPatch.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />

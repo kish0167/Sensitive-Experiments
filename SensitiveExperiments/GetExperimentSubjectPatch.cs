@@ -1,5 +1,4 @@
 ﻿using HarmonyLib;
-using UnityEngine;
 
 namespace SensitiveExperiments
 {
@@ -10,11 +9,13 @@ namespace SensitiveExperiments
 	{
 		#region Private methods
 
+		// affects only first time experiment submitted
 		private static void Postfix(ref ScienceSubject __result)
 		{
-			//__result.scientificValue = 0.1f;
-			//LocalUtils.Print(__result);
+			__result.scientificValue = ScienceRescalingLogic.CalculateNewScienceValue(__result);
+			// LocalUtils.Print(__result);
 		}
+		
 		
 		#endregion
 	}

@@ -18,7 +18,6 @@ namespace SensitiveExperiments
 		{
 			_harmony = new Harmony("com.KSP.SensitiveExperiments");
 			_harmony.PatchAll();
-			GameEvents.OnExperimentDeployed.Add(ExperimentDeployedCallback);
 		}
 
 		private void OnDestroy()
@@ -27,14 +26,6 @@ namespace SensitiveExperiments
 		}
 
 		#endregion
-
-		#region Private methods
-
-		private void ExperimentDeployedCallback(ScienceData data)
-		{
-			//Debug.LogError("science done!");
-		}
-
-		#endregion
+		
 	}
 }
